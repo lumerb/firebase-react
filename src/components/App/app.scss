@@ -1,0 +1,16 @@
+@import "../../constants/site-colors.scss";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $dark-color;
+}
+
+.content-container{
+  
+  display:flex;
+  justify-content: center;
+  align-content:center;
+  
+}
+

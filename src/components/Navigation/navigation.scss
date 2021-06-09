@@ -1,0 +1,46 @@
+@import "../../constants/site-colors.scss";
+
+.navigation-container {
+  padding: 0.5rem;
+  background-color: $light-color;
+  color: $dark-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  h4 {
+    margin: 0px;
+  }
+  ul {
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+
+    li {
+      display: inline;
+      margin-right: 1rem;
+
+      a {
+        padding: 1rem;
+        text-decoration: none;
+        color: $dark-color;
+        &:hover {
+          background-color: $base-color;
+        }
+      }
+    }
+  }
+}
+
+.sign-out {
+  cursor: pointer;
+  display: inline;
+  padding: 1rem;
+  color: $dark-color;
+
+  &:hover {
+    background-color: $base-color;
+  }
+}
